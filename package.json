@@ -1,0 +1,23 @@
+{
+  "name": "daycord",
+  "version": "1.0.0",
+  "description": "Daycord is a easy to use node module that will help you with your discord bot.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && node removetsconfig.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": "github",
+  "author": "CynicUrban",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/node": "^16.7.10",
+    "@types/node-fetch": "^2.5.12",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.1"
+  }
+}
